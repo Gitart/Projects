@@ -1,4 +1,4 @@
-##OAuth2
+## OAuth2
 
 Для аутентификации и авторизации в API используется протокол OAuth2, из спецификации которого реализовано две схемы (flow): Client Credentials Grant и Authorization Code Grant.
 
@@ -18,6 +18,7 @@ Authorization Code Grant используется для получения до
 
 
 CODE  
+```html
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=UTF-8
 
@@ -28,7 +29,7 @@ Content-Type: application/json; charset=UTF-8
   "expires_in": "86400",  
   "refresh_token": "{refresh_token}"  
 }  
-
+```
 
 
 Далее, полученный access-токен можно использовать при отправке запросов к API target.my.com:
@@ -64,6 +65,7 @@ Content-Type: application/x-www-form-urlencoded
 grant_type=authorization_code&code={code}&client_id={client_id}
 Ответ:
 
+```html
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=UTF-8
 
@@ -75,6 +77,7 @@ Content-Type: application/json; charset=UTF-8
   "expires_in": "86400",  
   "refresh_token": "{refresh_token}"  
 }  
+```
 
 
 Полученный access_token используется для аутентификации запросов, посылаемых в API от имени пользователя:
