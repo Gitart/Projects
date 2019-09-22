@@ -22,7 +22,15 @@
 **Settings**
 **Departs**   
 **Rights**   
+**Types**   
+**Branches**   
+**Versions**   
+**Issues**   
 
-
-
+## Authorizations  
+## Integrations  
+## API  
+## Dashboards   
+## Reports  
+## Finance   
 
