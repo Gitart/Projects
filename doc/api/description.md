@@ -30,6 +30,20 @@ v1/task/one
 v1/task/all    
 
 
+## Versions
+v1/version/add   
+v1/version/update    
+v1/version/delete     
+v1/version/one     
+v1/version/all  
+
+## Log  
+v1/log/add   
+v1/log/update    
+v1/log/delete     
+v1/log/one     
+v1/log/all  
+
 
 
 
